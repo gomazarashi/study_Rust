@@ -1,6 +1,6 @@
 use rand::Rng;
 use std::cmp::Ordering;
-use std::io; //io(入出力)ライブラリ //乱数を扱う
+use std::io; //io(入出力)ライブラリ
 
 fn main() {
     println!("Guess the number!");
