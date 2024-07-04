@@ -1,3 +1,6 @@
 .vscode
 hello-rust/target
 guessing_game/target
+variables/target
+
+
