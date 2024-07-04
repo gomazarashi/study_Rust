@@ -35,10 +35,10 @@ fn main() {
     }
 }
 
-fn temperature_converter(deree_type: &str, degree: f64) -> f64 {
-    if deree_type == "C" {
+fn temperature_converter(degree_type: &str, degree: f64) -> f64 {
+    if degree_type == "C" {
         return degree * (9.0 / 5.0) + 32.0;
-    } else if deree_type == "F" {
+    } else if degree_type == "F" {
         return (degree - 32.0) * (5.0 / 9.0);
     } else {
         println!("書式エラー");
